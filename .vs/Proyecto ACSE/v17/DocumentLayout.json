@@ -1,0 +1,507 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyecto de Grado\\Proyecto ACSE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\proyecto acse.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\proyecto acse.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\proyecto acse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\proyecto acse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\localdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\localdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\caseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\caseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\informationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\informationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\casepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\casepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\casepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\casepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\informationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\informationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|d:\\proyecto de grado\\proyecto acse\\proyecto acse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A101AA0F-2D96-4ED7-A61F-426996CD81A9}|Proyecto ACSE\\Proyecto ACSE.csproj|solutionrelative:proyecto acse\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e3fb24c2-2e84-3146-a5f8-bc25bbc68f8a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Proyecto ACSE",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Proyecto ACSE.csproj",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Proyecto ACSE.csproj",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Proyecto ACSE.csproj",
+              "RelativeToolTip": "Proyecto ACSE\\Proyecto ACSE.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-09T04:15:52.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CaseService.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\CaseService.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\CaseService.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\CaseService.cs",
+              "RelativeToolTip": "Proyecto ACSE\\CaseService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:54:06.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\UserService.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\UserService.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\UserService.cs",
+              "RelativeToolTip": "Proyecto ACSE\\UserService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwDIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:53:17.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserSessionService.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\UserSessionService.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\UserSessionService.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\UserSessionService.cs",
+              "RelativeToolTip": "Proyecto ACSE\\UserSessionService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T03:08:37.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\EmailService.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\EmailService.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\EmailService.cs",
+              "RelativeToolTip": "Proyecto ACSE\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T02:05:19.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocalDBService.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\LocalDBService.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\LocalDBService.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\LocalDBService.cs",
+              "RelativeToolTip": "Proyecto ACSE\\LocalDBService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T02:28:06.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsersPage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\UsersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\UsersPage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\UsersPage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\UsersPage.xaml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFEAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:17:44.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersPage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\UsersPage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\UsersPage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\UsersPage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\UsersPage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-04T16:16:56.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AQIAAGwBAAAAAAAAAAAiwIUBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T23:29:38.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\RegisterPage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\RegisterPage.xaml",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAuwCMBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-01T23:28:14.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CasePage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\CasePage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\CasePage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\CasePage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\CasePage.xaml.cs",
+              "ViewState": "AQIAAPYBAAAAAAAAAAAuwAMCAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T22:10:08.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CasePage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\CasePage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\CasePage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\CasePage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\CasePage.xaml",
+              "ViewState": "AQIAAHMBAAAAAAAAAAAuwIIBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T22:09:33.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\HomePage.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wGQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T02:12:24.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\HomePage.xaml",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAHoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T02:12:22.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proyecto ACSE.csproj",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Proyecto ACSE.csproj",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Proyecto ACSE.csproj",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Proyecto ACSE.csproj",
+              "RelativeToolTip": "Proyecto ACSE\\Proyecto ACSE.csproj",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-09T02:22:24.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-29T02:02:24.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InformationPage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\InformationPage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\InformationPage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\InformationPage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\InformationPage.xaml",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAuwHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-26T02:57:10.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\SettingsPage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\SettingsPage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\SettingsPage.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBZwCQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T04:33:38.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\SettingsPage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\SettingsPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T04:33:42.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InformationPage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\InformationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Views\\InformationPage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Views\\InformationPage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Views\\InformationPage.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwDkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T02:57:47.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Case.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Case.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Case.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Case.cs",
+              "RelativeToolTip": "Proyecto ACSE\\Case.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwDQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T22:07:37.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\User.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\User.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\User.cs",
+              "RelativeToolTip": "Proyecto ACSE\\User.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowB4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T22:49:29.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\AppShell.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\AppShell.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T21:34:08.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\App.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\App.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\App.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAASwBEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:00:00.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\MauiProgram.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\MauiProgram.cs",
+              "RelativeToolTip": "Proyecto ACSE\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T02:09:34.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\AppShell.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T02:25:20.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\MainPage.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\MainPage.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\MainPage.xaml",
+              "ViewState": "AQIAAC0AAAAAAAAAAIBpwEEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T00:09:35.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\MainPage.xaml.cs",
+              "RelativeToolTip": "Proyecto ACSE\\MainPage.xaml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwB0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T00:09:19.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\App.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\App.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\App.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-06T13:18:24.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Proyecto ACSE\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\Proyecto de Grado\\Proyecto ACSE\\Proyecto ACSE\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Proyecto ACSE\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALEBAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-28T03:16:58.198Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

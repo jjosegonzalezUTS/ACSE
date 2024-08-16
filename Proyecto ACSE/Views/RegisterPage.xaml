@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_ACSE.Views.RegisterPage"
+             Title=" ">
+
+    <ContentPage.Resources>
+        <Style TargetType="Frame" x:Key="EntryFrameStyle">
+            <Setter Property="BackgroundColor" Value="White"/>
+            <Setter Property="BorderColor" Value="LightGray"/>
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="HasShadow" Value="False"/>
+        </Style>
+        <Style TargetType="Entry" x:Key="EntryStyle">
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+        <Style TargetType="Picker" x:Key="PickerStyle">
+            <Setter Property="BackgroundColor" Value="Transparent"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+        <Style TargetType="Label" x:Key="LabelStyle">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="Label" x:Key="ErrorLabelStyle">
+            <Setter Property="TextColor" Value="Red"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="Label" x:Key="PasswordRuleStyle">
+            <Setter Property="TextColor" Value="Gray"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="Label" x:Key="PasswordRuleStyleMet">
+            <Setter Property="TextColor" Value="Green"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style TargetType="Entry">
+            <Setter Property="TextColor"/>
+            <Style.Triggers>
+                <Trigger TargetType="Entry" Property="IsEnabled" Value="False">
+                    <Setter Property="TextColor" Value="Gray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="DatePicker">
+            <Setter Property="TextColor"/>
+            <Style.Triggers>
+                <Trigger TargetType="DatePicker" Property="IsEnabled" Value="False">
+                    <Setter Property="TextColor" Value="Gray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TimePicker">
+            <Setter Property="TextColor"/>
+            <Style.Triggers>
+                <Trigger TargetType="TimePicker" Property="IsEnabled" Value="False">
+                    <Setter Property="TextColor" Value="Gray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Picker">
+            <Setter Property="TextColor"/>
+            <Style.Triggers>
+                <Trigger TargetType="Picker" Property="IsEnabled" Value="False">
+                    <Setter Property="TextColor" Value="Gray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="Editor">
+            <Setter Property="TextColor"/>
+            <Style.Triggers>
+                <Trigger TargetType="Editor" Property="IsEnabled" Value="False">
+                    <Setter Property="TextColor" Value="Gray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Start">
+            <Label x:Name="FormTitleLabel"
+                   Text="REGISTRO"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Padding="10"/>
+            <ImageButton Source="info_icon.png"
+                         WidthRequest="18"
+                         HeightRequest="18"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center"
+                         Margin="10"
+                         Clicked="OnShowRegistrationRules"/>
+        </StackLayout>
+
+        <!-- Form Content -->
+        <ScrollView Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Start">
+            <VerticalStackLayout Padding="20" Spacing="20" WidthRequest="380">
+
+                <VerticalStackLayout x:Name="RoleStack" IsVisible="False">
+                    <Frame Style="{StaticResource EntryFrameStyle}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="rol.png"
+                                   WidthRequest="24"
+                                   HeightRequest="24"
+                                   VerticalOptions="Center"
+                                   Margin="5,0"/>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="Rol"
+                                       Style="{StaticResource LabelStyle}"
+                                       VerticalOptions="Start" />
+                                <Picker x:Name="RolePicker"
+                                        Title="Seleccionar Rol"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="FillAndExpand"
+                                        Style="{StaticResource PickerStyle}"
+                                        SelectedIndexChanged="OnRoleSelected"
+                                        Margin="0,5,0,0">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>User</x:String>
+                                            <x:String>Admin</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+                    <Frame Style="{StaticResource EntryFrameStyle}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="user.png"
+                                   WidthRequest="24"
+                                   HeightRequest="24"
+                                   VerticalOptions="Center"
+                                   Margin="5,0"/>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="Nombre"
+                                       Style="{StaticResource LabelStyle}"
+                                       VerticalOptions="Start"/>
+                                <Entry x:Name="nameEntryField"
+                                       MaxLength="50"
+                                       Style="{StaticResource EntryStyle}"
+                                       HeightRequest="42"
+                                       Margin="0,5"
+                                       TextChanged="OnNameEntryTextChanged"/>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                    <Label x:Name="nameErrorLabel"
+                           Style="{StaticResource ErrorLabelStyle}"
+                           IsVisible="False"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+                    <Frame Style="{StaticResource EntryFrameStyle}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="mail.png"
+                                   WidthRequest="24"
+                                   HeightRequest="24"
+                                   VerticalOptions="Center"
+                                   Margin="5,0"/>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="Correo electrónico"
+                                       Style="{StaticResource LabelStyle}"
+                                       VerticalOptions="Start"/>
+                                <Entry x:Name="emailEntryField"
+                                       MaxLength="50"
+                                       Style="{StaticResource EntryStyle}"
+                                       IsSpellCheckEnabled="False"
+                                       HeightRequest="42"
+                                       Margin="0,5"
+                                    TextChanged="OnEmailEntryTextChanged"/>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                    <Label x:Name="emailErrorLabel"
+                           Style="{StaticResource ErrorLabelStyle}"
+                           IsVisible="False"/>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+                    <Frame Style="{StaticResource EntryFrameStyle}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="password.png"
+                                   WidthRequest="24"
+                                   HeightRequest="24"
+                                   VerticalOptions="Center"
+                                   Margin="5,0"/>
+                            <Grid Grid.Column="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="Contraseña"
+                                       Style="{StaticResource LabelStyle}"
+                                       VerticalOptions="Start"/>
+                                <Entry x:Name="passwordEntryField"
+                                       MaxLength="20"
+                                       Style="{StaticResource EntryStyle}"
+                                       IsPassword="True"
+                                       HeightRequest="42"
+                                       Margin="0,5"
+                                    TextChanged="OnPasswordEntryTextChanged"/>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                    <Label x:Name="passwordErrorLabel"
+                           Style="{StaticResource ErrorLabelStyle}"
+                           IsVisible="False"
+                           Margin="0,10,0,0"/>
+                    <StackLayout x:Name="passwordRulesStack">
+                        <Label x:Name="lowerUpperRule"
+                               Text="Minusculas y Mayusculas"
+                               Style="{StaticResource PasswordRuleStyle}"/>
+                        <Label x:Name="numberRule"
+                               Text="Número (0-9)"
+                               Style="{StaticResource PasswordRuleStyle}"/>
+                        <Label x:Name="specialCharRule"
+                               Text="Caracter especial (!@#$%*.)"
+                               Style="{StaticResource PasswordRuleStyle}"/>
+                        <Label x:Name="minLengthRule"
+                               Text="Al menos 8 caracteres"
+                               Style="{StaticResource PasswordRuleStyle}"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+
+                <Button x:Name="saveButton"
+                        Text="REGISTRAR"
+                        Clicked="OnSaveUser"
+                        HorizontalOptions="Center"
+                        BackgroundColor="{DynamicResource Primary}"
+                        FontAttributes="Bold"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Footer -->
+        <!--<BoxView Grid.Row="2"
+                 Color="{DynamicResource Primary}"
+                 HeightRequest="40"/>
+
+        <Label Grid.Row="2"
+               Text="UNIDADES TECNOLÓGICAS DE SANTANDER - 2024 ©"
+               FontSize="14"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Padding="10"/>-->
+    </Grid>
+</ContentPage>

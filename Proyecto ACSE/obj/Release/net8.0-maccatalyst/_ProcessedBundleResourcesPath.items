@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\bg.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\cases.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\cases2.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\delete.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\filter.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\information.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\information2.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\info_icon.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\mail.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\mailgreen.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\password.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\rol.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\settings.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\settings2.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\user.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\user2.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\user_settings.png" />
+    <BundleResource Include="D:\Proyecto de Grado\Proyecto ACSE\Proyecto ACSE\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\uts.png" />
+  </ItemGroup>
+</Project>

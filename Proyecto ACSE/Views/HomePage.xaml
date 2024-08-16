@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_ACSE.Views.HomePage"
+             Title="Home">
+
+    <AbsoluteLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <Grid RowDefinitions="Auto,*" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <StackLayout x:Name="FixedHeader" Style="{StaticResource FixedHeaderStyle}" Grid.Row="0">
+                <Image Source="user.png" WidthRequest="30" HeightRequest="30" />
+                <Label x:Name="UserNameLabel" Style="{StaticResource UserNameStyle}" />
+            </StackLayout>
+
+            <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand">
+                <VerticalStackLayout Padding="10">
+                    <Label x:Name="CasesLabel" Text="TUS CASOS" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="StartAndExpand" Margin="0, 10, 0, 30"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout x:Name="ShowAllCheckBoxContainer" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="Start" IsVisible="False" Grid.Column="0">
+                            <CheckBox x:Name="ShowAllCheckBox" CheckedChanged="OnShowAllCheckBoxChanged"/>
+                            <Label Text="Mostrar Todo" VerticalOptions="Center"/>
+                        </StackLayout>
+                        <Button x:Name="OrderByButton" 
+                                Text="Descendente" 
+                                Clicked="OnOrderByButtonClicked"
+                                Style="{StaticResource BorderOnlyButtonStyle}"
+                                IsVisible="False" 
+                                Grid.Column="1" />
+                    </Grid>
+
+                    <Grid x:Name="SearchGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <SearchBar x:Name="SearchBar" Placeholder="Buscar" TextChanged="OnSearchBarTextChanged" Grid.Column="0" />
+
+                        <Image Source="filter.png" Grid.Column="1" HeightRequest="40" WidthRequest="40" VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnFilterImageTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+
+                    <CollectionView x:Name="CasesCollectionViewAdmin" VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="10" Margin="5" BackgroundColor="#303030" Orientation="Horizontal">
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnCaseTapped"/>
+                                    </StackLayout.GestureRecognizers>
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Id, StringFormat='Caso #{0}'}" FontAttributes="Bold" TextColor="White" />
+                                        <Label Text="{Binding UserId, StringFormat='ID Usuario: {0}'}" TextColor="White" />
+                                        <Label Text="{Binding RegistrationDate}" TextColor="White" />
+                                    </StackLayout>
+                                    <Button ImageSource="delete.png"
+                                            WidthRequest="50"
+                                            HeightRequest="50"
+                                            Clicked="OnDeleteCaseClicked"
+                                            BackgroundColor="Transparent"
+                                            HorizontalOptions="End"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <CollectionView x:Name="CasesCollectionView" VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="10" Margin="5" BackgroundColor="#303030" Orientation="Horizontal">
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnCaseTapped"/>
+                                    </StackLayout.GestureRecognizers>
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Id, StringFormat='Caso #{0}'}" FontAttributes="Bold" TextColor="White" />
+                                        <Label Text="{Binding Date}" TextColor="White" />
+                                        <Label Text="{Binding Description}" TextColor="White" />
+                                    </StackLayout>
+                                    <Button ImageSource="delete.png"
+                                            WidthRequest="50"
+                                            HeightRequest="50"
+                                            Clicked="OnDeleteCaseClicked"
+                                            BackgroundColor="Transparent"
+                                            HorizontalOptions="End"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <Label x:Name="NoCasesLabel" Text="No existen casos registrados." IsVisible="False" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="0,20,0,0" />
+
+                    <Label x:Name="InProgressTitle" IsVisible="False" Text="CASOS EN PROGRESO" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Margin="0, 50, 0, 30"/>
+
+                    <CollectionView x:Name="InProgressCasesCollectionView" VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="10" Margin="5" BackgroundColor="#303030" Orientation="Horizontal">
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnCaseTapped"/>
+                                    </StackLayout.GestureRecognizers>
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Id, StringFormat='Caso #{0}'}" FontAttributes="Bold" TextColor="White" />
+                                        <Label Text="{Binding Date}" TextColor="White" />
+                                        <Label Text="{Binding Description}" TextColor="White" />
+                                    </StackLayout>
+                                    <Button ImageSource="delete.png"
+                                                WidthRequest="50"
+                                                HeightRequest="50"
+                                                Clicked="OnDeleteCaseClicked"
+                                                BackgroundColor="Transparent"
+                                                HorizontalOptions="End"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <Label x:Name="ResolvedTitle" IsVisible="False" Text="CASOS FINALIZADOS" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Margin="0, 50, 0, 30"/>
+
+                    <CollectionView x:Name="ResolvedCasesCollectionView" VerticalOptions="FillAndExpand">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="10" Margin="5" BackgroundColor="#303030" Orientation="Horizontal">
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnCaseTapped"/>
+                                    </StackLayout.GestureRecognizers>
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Id, StringFormat='Caso #{0}'}" FontAttributes="Bold" TextColor="White" />
+                                        <Label Text="{Binding Date}" TextColor="White" />
+                                        <Label Text="{Binding Description}" TextColor="White" />
+                                    </StackLayout>
+                                    <Button ImageSource="delete.png"
+                                                WidthRequest="50"
+                                                HeightRequest="50"
+                                                Clicked="OnDeleteCaseClicked"
+                                                BackgroundColor="Transparent"
+                                                HorizontalOptions="End"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <Label Text=""
+                           FontSize="14"
+                           FontAttributes="Bold"
+                           Margin="0,120,0,10" />
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+
+        <Button Text="+" Clicked="OnNewCaseClicked" Style="{StaticResource FloatingButtonStyle}" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="1,0.9" />
+
+        <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.07" BackgroundColor="{StaticResource Primary}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <VerticalStackLayout Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center">
+                <Button Style="{StaticResource NavigationButtonStyle}" ImageSource="cases2.png" />
+                <Label Text="Casos" Style="{StaticResource NavigationLabelStyle}" TextColor="White" />
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">
+                <Button x:Name="DynamicNavigationBtn" Style="{StaticResource NavigationButtonStyle}" ImageSource="information.png" Clicked="OnInformationButtonClicked" />
+                <Label x:Name="DynamicNavigationLabel" Text="Información" Style="{StaticResource NavigationLabelStyle}" />
+            </VerticalStackLayout>
+            <VerticalStackLayout Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center">
+                <Button Style="{StaticResource NavigationButtonStyle}" ImageSource="settings.png" Clicked="OnSettingsButtonClicked" />
+                <Label Text="Ajustes" Style="{StaticResource NavigationLabelStyle}" />
+            </VerticalStackLayout>
+        </Grid>
+    </AbsoluteLayout>
+</ContentPage>

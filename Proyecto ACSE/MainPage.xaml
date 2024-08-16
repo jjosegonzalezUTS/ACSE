@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_ACSE.MainPage"
+             Title="Inicio de Sesión">
+
+    <AbsoluteLayout>
+        <!-- Background Image -->
+        <Image Source="bg.png"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" />
+
+        <ScrollView AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
+            <VerticalStackLayout Padding="30,0" Spacing="25" VerticalOptions="Center" Margin="0,100,0,0">
+
+                <!-- User Entry with Icon -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="mail.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" Margin="0,0,10,0"/>
+                    <Entry Grid.Column="1"
+                           x:Name="User"
+                           Placeholder="EMAIL"
+                           MaxLength="50"
+                           ClearButtonVisibility="WhileEditing"
+                           IsSpellCheckEnabled="False"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"/>
+                </Grid>
+
+                <!-- Password Entry with Icon -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="password.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" Margin="0,0,10,0"/>
+                    <Entry Grid.Column="1"
+                           x:Name="Password"
+                           Placeholder="CONTRASEÑA"
+                           MaxLength="50"
+                           IsPassword="True"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"/>
+                </Grid>
+
+
+                <!-- Iniciar Sesion Button -->
+                <Button x:Name="IniciarSesion"
+                        Clicked="OnLogIn"
+                        Text="INICIAR SESIÓN →"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="60"
+                        TextColor="Black"/>
+
+
+                <!-- Text for Registration -->
+                <Label HorizontalOptions="Start">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Es tu primera vez? " TextColor="Gray"/>
+                            <Span Text="Registrate" TextDecorations="Underline" TextColor="Black">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnRegister"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
+</ContentPage>
